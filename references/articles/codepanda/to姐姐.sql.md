@@ -1,0 +1,4 @@
+# to姐姐
+
+INSERT INTO `ads_bi_hr_workbench_beiseng_recruitment_funnel_fd`(`bpit_id`, `zwmc`, `zpfzr_id`, `zpfzr`, `email`, `gxr_id`, `gxr`, `xqbm`, `zprs`, `zt`, `zplb`, `gzxz`, `zjzysj`, `jlcs`, `cpms`, `offer`, `zsly`, `ms`, `lysq`) VALUES (1, '升级新招聘存档未归档简历20230425', '136903', '招聘实施账号', 'haoweilaitest@shishi.com', '136903', '', '默认部门', '0', '招聘中', '校园招聘', '全职', '2023-04-2810:31:27', '1', '1', '1', '1', '3', '1');
+INSERT INTO `ads_bi_hr_workbench_beiseng_recruitment_funnel_fd`(`bpit_id`, `zwmc`, `zpfzr_id`, `zpfzr`, `email`, `gxr_id`, `gxr`, `xqbm`, `zprs`, `zt`, `zplb`, `gzxz`, `zjzysj`, `jlcs`, `cpms`, `offer`, `zsly`, `ms`, `lysq`) VALUES (2, 'Offer社招', '136903', '安峰', 'anfeng@tal.com', '136903', '霍德华', '集团总部', '0', '招聘中', '校园招聘', '全职', '2023-04-2810:31:27', '1', '1', '1', '1', '3', '1');

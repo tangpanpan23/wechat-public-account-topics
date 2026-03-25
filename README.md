@@ -8,6 +8,7 @@
 
 - 热点新闻收集与分析（虎嗅、36氪）
 - 结合公众号定位生成多角度选题
+- 参考历史文章生成内容
 - 输出完整文章/视频脚本
 - 发送选题简报到飞书群
 
@@ -22,43 +23,35 @@
 
 ## 账号矩阵
 
-| 账号 | 定位 | 受众 |
-|------|------|------|
-| 码农世界 CodePanda | 程序员/技术 | 开发者 |
-| 旧青年 | 情怀/生活 | 文艺青年 |
-| 北漂答卷人 | 北漂/奋斗 | 打工人 |
+| 账号 | 定位 | 受众 | 历史文章 |
+|------|------|------|----------|
+| 码农世界 CodePanda | 程序员/技术 | 开发者 | 467篇 |
+| 旧青年 | 情怀/生活 | 文艺青年 | 110篇 |
+| 北漂答卷人 | 北漂/奋斗 | 打工人 | 5篇 |
 
 ## 安装
 
-将 skill 放置到 OpenClaw skills 目录：
-
 ```bash
+# 克隆仓库
+git clone https://github.com/tangpanpan23/wechat-public-account-topics.git
+
+# 放置到 skills 目录
 cp -r wechat-public-account-topics ~/.openclaw/skills/
-```
-
-或使用 OpenClaw 命令：
-
-```bash
-openclaw skills install wechat-public-account-topics
-```
-
-## 使用
-
-```
-用户: 帮我生成今日热点选题
-→ Skill 自动收集热点
-→ 匹配账号定位
-→ 输出差异化选题
 ```
 
 ## 项目结构
 
 ```
 wechat-public-account-topics/
-├── SKILL.md              # 主文件
+├── SKILL.md                      # Skill 主文件
 └── references/
-    ├── accounts.md       # 账号矩阵
-    └── templates.md      # 内容模板
+    ├── accounts.md               # 账号矩阵
+    ├── templates.md              # 内容模板
+    └── articles/                 # 历史文章库
+        ├── README.md            # 文章索引
+        ├── codepanda/          # 码农世界 (467篇)
+        ├── oldyouth/           # 旧青年 (110篇)
+        └── dreamers/           # 北漂答卷人 (5篇)
 ```
 
 ## License
